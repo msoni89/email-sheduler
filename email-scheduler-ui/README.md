@@ -2,6 +2,12 @@
 
 Email scheduler front end project is used for scheduing email.
 
+## Technology
+
+```bash
+  ReactJS with Redux frameworks
+```
+
 
 ## Installation
 Use the npm package manager to install node moddule.

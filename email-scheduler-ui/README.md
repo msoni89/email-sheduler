@@ -8,7 +8,10 @@ Email scheduler front end project is used for scheduing email.
   ReactJS with Redux frameworks
 ```
 
-
+## Configuration (.env file)
+```bash
+REACT_APP_BACK_END_BASE_URL=http://localhost:8080
+```
 ## Installation
 Use the npm package manager to install node moddule.
 

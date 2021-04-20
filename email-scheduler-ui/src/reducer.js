@@ -3,7 +3,6 @@ const initialState = {
   messageType: '',
   messageText: '',
 }
-const BACKEND_URL = 'http://localhost:8080/schedule-email'
 
 export const MessageType = {
   success: 'success',
@@ -22,7 +21,10 @@ const reducer = (state = initialState, action) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...state.formValues }),
       }
-      fetch(BACKEND_URL, requestOptions)
+      fetch(
+        `${process.env.REACT_APP_BACK_END_BASE_URL}/schedule-email`,
+        requestOptions,
+      )
         .then((response) => {
           return response.json()
         })

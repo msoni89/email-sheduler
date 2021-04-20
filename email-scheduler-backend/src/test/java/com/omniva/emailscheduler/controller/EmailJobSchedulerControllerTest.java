@@ -60,7 +60,7 @@ public class EmailJobSchedulerControllerTest {
 				.andExpect(MockMvcResultMatchers.jsonPath("$.success").exists())
 				.andExpect(MockMvcResultMatchers.jsonPath("$.success").value(false))
 				.andExpect(MockMvcResultMatchers.jsonPath("$.message").exists())
-				.andExpect(MockMvcResultMatchers.jsonPath("$.message").value("dateTime must be after current time"));
+				.andExpect(MockMvcResultMatchers.jsonPath("$.message").value("DateTime must be after current time"));
 
 	}
 

@@ -25,4 +25,4 @@ npm start
 
 The application will start on port 3000 by default. Let’s now schedule an email using the http://localhost:3000
 
-![Screenshot from 2021-04-18 15-33-06](https://user-images.githubusercontent.com/65469737/115475247-e39c9680-a247-11eb-93ba-609cb4d41b3f.png)
+![Screenshot from 2021-04-21 02-37-11](https://user-images.githubusercontent.com/65469737/115476442-88b86e80-a24a-11eb-8762-8ddc688e3ea8.png)
